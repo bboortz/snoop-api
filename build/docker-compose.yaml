@@ -1,0 +1,7 @@
+version: '3'
+services:
+  snoop-api:
+    build: .
+    image: "snoop"
+    ports:
+    - "8443:8443"

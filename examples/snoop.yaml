@@ -1,0 +1,7 @@
+port:          :8444
+readTimeout:   2
+writeTimeout:  5
+TLSCipher:     "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256|TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+TLSMinVersion: "VersionTLS12"
+TLSCert:       "/examples/certs/cert.pem"
+TLSKey:        "/examples/certs/key.pem"
